@@ -1,0 +1,15 @@
+{
+    "resourceType": "Meal",
+    "name": "Peanut Butter and Jelly Sandwich",
+    "ingredients": [
+        {
+            "name": "Peanut Butter"
+        },
+        {
+            "name": "Jelly"
+        },
+        {
+            "name": "Sliced Bread"
+        }
+    ]
+}
