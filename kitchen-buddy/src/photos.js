@@ -10,6 +10,11 @@ export const photos = [
         height: 2
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img054-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img058.jpg",
         width: 3,
         height: 2
@@ -27,6 +32,11 @@ export const photos = [
     {
         src: "https://clayimages.s3.amazonaws.com/img070.jpg",
         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img080-2x2.jpg",
+        width: 2,
         height: 2
     },
     {
@@ -105,6 +115,11 @@ export const photos = [
         height: 2
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img133-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img135.jpg",
          width: 3,
         height: 2
@@ -125,8 +140,33 @@ export const photos = [
         height: 2
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img176-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img177-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img180-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img190-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img202.jpg",
          width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img207.jpg",
+        width: 3,
         height: 2
     },
     {
@@ -145,6 +185,11 @@ export const photos = [
         height: 2
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img218-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img219.jpg",
          width: 3,
         height: 2
@@ -155,12 +200,22 @@ export const photos = [
         height: 2
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img223.jpg",
-         width: 3,
+        src: "https://clayimages.s3.amazonaws.com/img226-2x2.jpg",
+        width: 2,
         height: 2
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img224.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img227-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img230-2x2.jpg",
+        width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img223.jpg",
          width: 3,
         height: 2
     },
