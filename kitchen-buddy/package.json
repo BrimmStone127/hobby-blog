@@ -1,7 +1,7 @@
 {
   "name": "kitchen-buddy",
   "version": "0.1.0",
-  "homepage": "https://Brimmstone127.github.io/kitchen-buddy",
+  "homepage": "https://Brimmstone127.github.io/hobby-blog",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",

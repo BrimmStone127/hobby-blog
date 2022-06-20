@@ -309,4 +309,59 @@ export const photos = [
          width: 3,
         height: 2
     },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img356-3x2.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img357-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img358-3x2.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img359-3x2.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img360-3x2.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img363-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img371-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img373-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img383.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img385.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img396-2x2.jpg",
+         width: 2,
+        height: 2
+    },
 ];
