@@ -1,15 +1,15 @@
 {
-  "main.css": "/kitchen-buddy/static/css/main.70ea4f5a.chunk.css",
-  "main.js": "/kitchen-buddy/static/js/main.63787aef.chunk.js",
-  "main.js.map": "/kitchen-buddy/static/js/main.63787aef.chunk.js.map",
-  "static/css/1.b6c46b81.chunk.css": "/kitchen-buddy/static/css/1.b6c46b81.chunk.css",
-  "static/js/1.7bb8f312.chunk.js": "/kitchen-buddy/static/js/1.7bb8f312.chunk.js",
-  "static/js/1.7bb8f312.chunk.js.map": "/kitchen-buddy/static/js/1.7bb8f312.chunk.js.map",
-  "runtime~main.js": "/kitchen-buddy/static/js/runtime~main.5d189e28.js",
-  "runtime~main.js.map": "/kitchen-buddy/static/js/runtime~main.5d189e28.js.map",
-  "static/css/main.70ea4f5a.chunk.css.map": "/kitchen-buddy/static/css/main.70ea4f5a.chunk.css.map",
-  "static/css/1.b6c46b81.chunk.css.map": "/kitchen-buddy/static/css/1.b6c46b81.chunk.css.map",
-  "index.html": "/kitchen-buddy/index.html",
-  "precache-manifest.150726ec6cc0333287305612eafa8b12.js": "/kitchen-buddy/precache-manifest.150726ec6cc0333287305612eafa8b12.js",
-  "service-worker.js": "/kitchen-buddy/service-worker.js"
+  "main.css": "/hobby-blog/static/css/main.70ea4f5a.chunk.css",
+  "main.js": "/hobby-blog/static/js/main.63787aef.chunk.js",
+  "main.js.map": "/hobby-blog/static/js/main.63787aef.chunk.js.map",
+  "static/css/1.b6c46b81.chunk.css": "/hobby-blog/static/css/1.b6c46b81.chunk.css",
+  "static/js/1.7bb8f312.chunk.js": "/hobby-blog/static/js/1.7bb8f312.chunk.js",
+  "static/js/1.7bb8f312.chunk.js.map": "/hobby-blog/static/js/1.7bb8f312.chunk.js.map",
+  "runtime~main.js": "/hobby-blog/static/js/runtime~main.e39d9d6f.js",
+  "runtime~main.js.map": "/hobby-blog/static/js/runtime~main.e39d9d6f.js.map",
+  "static/css/main.70ea4f5a.chunk.css.map": "/hobby-blog/static/css/main.70ea4f5a.chunk.css.map",
+  "static/css/1.b6c46b81.chunk.css.map": "/hobby-blog/static/css/1.b6c46b81.chunk.css.map",
+  "index.html": "/hobby-blog/index.html",
+  "precache-manifest.fda67e6aeaf07ade474a4bb411f9210f.js": "/hobby-blog/precache-manifest.fda67e6aeaf07ade474a4bb411f9210f.js",
+  "service-worker.js": "/hobby-blog/service-worker.js"
 }
