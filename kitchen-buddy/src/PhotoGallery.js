@@ -7,6 +7,9 @@ import { photos } from "./photos";
 export function PhotoGallery() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  let photos1 = photos;
+  let photosRecent = [...photos1].reverse();
+  let photoOrder = photosRecent;
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
@@ -20,13 +23,13 @@ export function PhotoGallery() {
 
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery photos={photoOrder} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={photos.map(x => ({
+              views={photoOrder.map(x => ({
                 ...x,
                 srcset: x.srcSet,
                 caption: x.title
