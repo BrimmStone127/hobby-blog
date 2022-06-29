@@ -364,4 +364,24 @@ export const photos = [
          width: 2,
         height: 2
     },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img401-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img408-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img413-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img418-2x2.jpg",
+         width: 2,
+        height: 2
+    },
 ];
