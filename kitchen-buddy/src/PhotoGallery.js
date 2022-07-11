@@ -11,6 +11,12 @@ export function PhotoGallery() {
   let photosRecent = [...photos1].reverse();
   let photoOrder = photosRecent;
 
+  photoOrder.sort(compareDateTaken).reverse();
+
+  function compareDateTaken(a, b) {
+    return Date.parse(new Date(a.date_taken)) - Date.parse(new Date(b.date_taken))
+  }
+
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
