@@ -380,6 +380,11 @@ export const photos = [
         height: 2
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img411-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img413-2x2.jpg",
          width: 2,
         height: 2
@@ -390,8 +395,38 @@ export const photos = [
         height: 2
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img411-2x2.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img488-2x2.jpg",
          width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img496.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img498.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img503-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img507.jpg",
+         width: 3,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img511-2x2.jpg",
+         width: 2,
+        height: 2
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img516.jpg",
+         width: 3,
         height: 2
     },
 ];
