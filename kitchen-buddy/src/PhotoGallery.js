@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
+import { Col, Row, Container, Accordion, Button, ToggleButton, Card} from 'react-bootstrap';
 
 export function PhotoGallery() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -27,23 +28,71 @@ export function PhotoGallery() {
     setViewerIsOpen(false);
   };
 
+  const [checked, setChecked] = useState(false);
+
   return (
-    <div>
-      <Gallery photos={photoOrder} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photoOrder.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
-    </div>
+    <Container>
+      <Row>
+        <Container>
+          <Accordion flush>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>Filter</Accordion.Header>
+              <Accordion.Body>
+                <ToggleButton
+                  id="toggle-check"
+                  type="checkbox"
+                  variant="secondary"
+                  checked={checked}
+                  value="1"
+                  onChange={(e) => setChecked(e.currentTarget.checked)}
+                >
+                  Checked
+                </ToggleButton>
+                <ToggleButton
+                  className="mb-2"
+                  id="toggle-check"
+                  type="checkbox"
+                  variant="outline-primary"
+                  checked={checked}
+                  value="1"
+                  onChange={(e) => setChecked(e.currentTarget.checked)}
+                >
+                  Checked
+                </ToggleButton>
+                <Button variant="primary">Primary</Button>{' '}
+                <Button variant="secondary">Secondary</Button>{' '}
+                <Button variant="success">Success</Button>{' '}
+                <Button variant="warning">Warning</Button>{' '}
+                <Button variant="danger">Danger</Button>{' '}
+                <Button variant="info">Info</Button>{' '}
+                <Button variant="light">Light</Button>{' '}
+                <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
+                
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+        </Container>
+      </Row>
+      <Row>
+        <div>
+          <Gallery photos={photoOrder} onClick={openLightbox} />
+          <ModalGateway>
+            {viewerIsOpen ? (
+              <Modal onClose={closeLightbox}>
+                <Carousel
+                  currentIndex={currentImage}
+                  views={photoOrder.map(x => ({
+                    ...x,
+                    srcset: x.srcSet,
+                    caption: x.title
+                  }))}
+                />
+              </Modal>
+            ) : null}
+          </ModalGateway>
+        </div>
+      </Row>
+      
+    </Container>
   );
 }
