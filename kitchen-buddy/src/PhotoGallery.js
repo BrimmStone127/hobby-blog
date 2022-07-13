@@ -52,7 +52,24 @@ export function PhotoGallery() {
                     }
                   }}
                 >
-                  Checked
+                  Black and White
+                </ToggleButton>
+
+                <ToggleButton
+                  id="toggle-check"
+                  type="checkbox"
+                  variant="outline-primary"
+                  checked={checked}
+                  value="2"
+                  onChange={(e) => {
+                    if(checked != 2){
+                      setChecked(e.currentTarget.checked)
+                    } else {
+                      setChecked(false);
+                    }
+                  }}
+                >
+                  Color
                 </ToggleButton>
               </Accordion.Body>
             </Accordion.Item>
