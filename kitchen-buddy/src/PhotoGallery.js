@@ -41,33 +41,19 @@ export function PhotoGallery() {
                 <ToggleButton
                   id="toggle-check"
                   type="checkbox"
-                  variant="secondary"
-                  checked={checked}
-                  value="1"
-                  onChange={(e) => setChecked(e.currentTarget.checked)}
-                >
-                  Checked
-                </ToggleButton>
-                <ToggleButton
-                  className="mb-2"
-                  id="toggle-check"
-                  type="checkbox"
                   variant="outline-primary"
                   checked={checked}
-                  value="1"
-                  onChange={(e) => setChecked(e.currentTarget.checked)}
+                  value="2"
+                  onChange={(e) => {
+                    if(checked != 2){
+                      setChecked(e.currentTarget.checked)
+                    } else {
+                      setChecked(false);
+                    }
+                  }}
                 >
                   Checked
                 </ToggleButton>
-                <Button variant="primary">Primary</Button>{' '}
-                <Button variant="secondary">Secondary</Button>{' '}
-                <Button variant="success">Success</Button>{' '}
-                <Button variant="warning">Warning</Button>{' '}
-                <Button variant="danger">Danger</Button>{' '}
-                <Button variant="info">Info</Button>{' '}
-                <Button variant="light">Light</Button>{' '}
-                <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
-                
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
