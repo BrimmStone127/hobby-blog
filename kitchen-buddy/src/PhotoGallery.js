@@ -3,15 +3,13 @@ import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
-import { Col, Row, Container, Accordion, Button, ToggleButton, Card, Dropdown, DropdownButton, SplitButton} from 'react-bootstrap';
+import { Col, Row, Container, Accordion, Button, ToggleButton, Card, Dropdown, DropdownButton, SplitButton } from 'react-bootstrap';
 
 export function PhotoGallery() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
-  let photos1 = photos;
-  let photosRecent = [...photos1].reverse();
+  let photosRecent = [...photos].reverse();
   let photoOrder = photosRecent;
-
   photoOrder.sort(compareDateTaken).reverse();
 
   function compareDateTaken(a, b) {
@@ -28,7 +26,42 @@ export function PhotoGallery() {
     setViewerIsOpen(false);
   };
 
-  const [checked, setChecked] = useState(false);
+  const handleSelect = (e) => {
+    let sorting = e;
+    if(sorting === "newest"){
+      photoOrder.sort(compareDateTaken).reverse();
+      setImageList(photoOrder);
+    }
+    if (sorting === "oldest"){
+      photoOrder.sort(compareDateTaken);
+      setImageList(photoOrder);
+    }
+    if(sorting === "random"){
+      let rando = shuffle(photoOrder);
+      setImageList(rando);
+    }
+    
+  }
+
+  function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
+
+  const [imageList, setImageList] = useState(photos);
 
   return (
     <Container>
@@ -38,52 +71,18 @@ export function PhotoGallery() {
             <Accordion.Item eventKey="0">
               <Accordion.Header>Filter</Accordion.Header>
               <Accordion.Body>
-                <ToggleButton
-                  id="toggle-check"
-                  type="checkbox"
-                  variant="outline-primary"
-                  checked={checked}
-                  value="2"
-                  onChange={(e) => {
-                    if(checked != 2){
-                      setChecked(e.currentTarget.checked)
-                    } else {
-                      setChecked(false);
-                    }
-                  }}
-                >
-                  Black and White
-                </ToggleButton>
-
-                <ToggleButton
-                  alignRight
-                  id="toggle-check"
-                  type="checkbox"
-                  variant="outline-primary"
-                  checked={checked}
-                  value="2"
-                  onChange={(e) => {
-                    if(checked != 2){
-                      setChecked(e.currentTarget.checked)
-                    } else {
-                      setChecked(false);
-                    }
-                  }}
-                >
-                  Color
-                </ToggleButton>
-
-                <Dropdown className="d-flex justify-content-end">
+                <Dropdown className="d-flex justify-content-end" onSelect={handleSelect}>
                   <Dropdown.Toggle id="dropdown-autoclose-true">
                     Sort By
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
-                    <Dropdown.Item href="#">Newest</Dropdown.Item>
-                    <Dropdown.Item href="#">Oldest</Dropdown.Item>
-                    <Dropdown.Item href="#">Random</Dropdown.Item>
+                    <Dropdown.Item eventKey="newest">Newest</Dropdown.Item>
+                    <Dropdown.Item eventKey="oldest">Oldest</Dropdown.Item>
+                    <Dropdown.Item eventKey="random">Random</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
+
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
@@ -91,13 +90,13 @@ export function PhotoGallery() {
       </Row>
       <Row>
         <div>
-          <Gallery photos={photoOrder} onClick={openLightbox} />
+          <Gallery photos={imageList} onClick={openLightbox} />
           <ModalGateway>
             {viewerIsOpen ? (
               <Modal onClose={closeLightbox}>
                 <Carousel
                   currentIndex={currentImage}
-                  views={photoOrder.map(x => ({
+                  views={imageList.map(x => ({
                     ...x,
                     srcset: x.srcSet,
                     caption: x.title
@@ -108,7 +107,7 @@ export function PhotoGallery() {
           </ModalGateway>
         </div>
       </Row>
-      
+
     </Container>
   );
 }
