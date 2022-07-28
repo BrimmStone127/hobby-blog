@@ -515,4 +515,52 @@ export const photos = [
         height: 2,
         date_taken: "2022-07-09"
     },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img534-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-15"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img535-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-15"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img545-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-19"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img551-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-19"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img583-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-23"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img597.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-07-23"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img600.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-07-23"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img609-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-23"
+    },
 ];
