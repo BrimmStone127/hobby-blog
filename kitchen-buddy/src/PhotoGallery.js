@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
-import { Col, Row, Container, Accordion, Button, ToggleButton, Card} from 'react-bootstrap';
+import { Col, Row, Container, Accordion, Button, ToggleButton, Card, Dropdown, DropdownButton, SplitButton} from 'react-bootstrap';
 
 export function PhotoGallery() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -56,6 +56,7 @@ export function PhotoGallery() {
                 </ToggleButton>
 
                 <ToggleButton
+                  alignRight
                   id="toggle-check"
                   type="checkbox"
                   variant="outline-primary"
@@ -71,6 +72,18 @@ export function PhotoGallery() {
                 >
                   Color
                 </ToggleButton>
+
+                <Dropdown className="d-flex justify-content-end">
+                  <Dropdown.Toggle id="dropdown-autoclose-true">
+                    Sort By
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#">Newest</Dropdown.Item>
+                    <Dropdown.Item href="#">Oldest</Dropdown.Item>
+                    <Dropdown.Item href="#">Random</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
