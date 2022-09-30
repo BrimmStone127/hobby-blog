@@ -563,4 +563,59 @@ export const photos = [
         height: 2,
         date_taken: "2022-07-23"
     },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img659.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img660.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img661.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img662.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img668-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img682.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img685.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-09-16"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img596-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-7-25"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img602-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-25"
+    },
+
 ];
