@@ -570,6 +570,18 @@ export const photos = [
         date_taken: "2022-09-16"
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img596-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-7-25"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img602-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2022-07-25"
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img660.jpg",
         width: 3,
         height: 2,
@@ -604,18 +616,6 @@ export const photos = [
         width: 3,
         height: 2,
         date_taken: "2022-09-16"
-    },
-    {
-        src: "https://clayimages.s3.amazonaws.com/img596-2x2.jpg",
-        width: 2,
-        height: 2,
-        date_taken: "2022-7-25"
-    },
-    {
-        src: "https://clayimages.s3.amazonaws.com/img602-2x2.jpg",
-        width: 2,
-        height: 2,
-        date_taken: "2022-07-25"
     },
 
 ];
