@@ -540,7 +540,19 @@ export const photos = [
         date_taken: "2022-07-09"
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img487.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-07-09"
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img496.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-07-09"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img497.jpg",
         width: 3,
         height: 2,
         date_taken: "2022-07-09"
@@ -564,6 +576,12 @@ export const photos = [
         date_taken: "2022-07-09"
     },
     {
+        src: "https://clayimages.s3.amazonaws.com/img508.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-07-09"
+    },
+    {
         src: "https://clayimages.s3.amazonaws.com/img511-2x2.jpg",
         width: 2,
         height: 2,
@@ -571,6 +589,12 @@ export const photos = [
     },
     {
         src: "https://clayimages.s3.amazonaws.com/img516.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-07-09"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img523.jpg",
         width: 3,
         height: 2,
         date_taken: "2022-07-09"
@@ -596,6 +620,12 @@ export const photos = [
     {
         src: "https://clayimages.s3.amazonaws.com/img551-2x2.jpg",
         width: 2,
+        height: 2,
+        date_taken: "2022-07-19"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img558.jpg",
+        width: 3,
         height: 2,
         date_taken: "2022-07-19"
     },
