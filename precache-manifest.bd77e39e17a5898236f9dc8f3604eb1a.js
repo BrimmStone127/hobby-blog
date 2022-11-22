@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "add3f95358b8a827fc7e",
+    "revision": "7f398f58723c88c93b68",
     "url": "/hobby-blog/static/css/main.dcbba4ba.chunk.css"
   },
   {
-    "revision": "add3f95358b8a827fc7e",
-    "url": "/hobby-blog/static/js/main.add3f953.chunk.js"
+    "revision": "7f398f58723c88c93b68",
+    "url": "/hobby-blog/static/js/main.7f398f58.chunk.js"
   },
   {
     "revision": "58635121f0ec37b1b334",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/hobby-blog/static/js/runtime~main.e39d9d6f.js"
   },
   {
-    "revision": "4b7b5e9ed88e035f1f3f9048b388382e",
+    "revision": "f78b97806c2172126578109b71b1d950",
     "url": "/hobby-blog/index.html"
   }
 ];
