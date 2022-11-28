@@ -804,21 +804,34 @@ export const photos = [
         date_taken: "2022-11-01"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img774.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img805.jpg",
         width: 3,
         height: 2,
         date_taken: "2022-11-20"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img808.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-11-20"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img774.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-11-25"
     },
     {
         src: "https://clayimages.s3.amazonaws.com/img788.jpg",
         width: 3,
         height: 2,
-        date_taken: "2022-11-20"
+        date_taken: "2022-11-25"
     },
     {
         src: "https://clayimages.s3.amazonaws.com/img792.jpg",
         width: 3,
         height: 2,
-        date_taken: "2022-11-20"
+        date_taken: "2022-11-25"
     },
+   
 ];
