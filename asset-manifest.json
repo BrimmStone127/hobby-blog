@@ -1,7 +1,7 @@
 {
   "main.css": "/hobby-blog/static/css/main.dcbba4ba.chunk.css",
-  "main.js": "/hobby-blog/static/js/main.7cd66606.chunk.js",
-  "main.js.map": "/hobby-blog/static/js/main.7cd66606.chunk.js.map",
+  "main.js": "/hobby-blog/static/js/main.8e35caf4.chunk.js",
+  "main.js.map": "/hobby-blog/static/js/main.8e35caf4.chunk.js.map",
   "static/css/1.592c36e9.chunk.css": "/hobby-blog/static/css/1.592c36e9.chunk.css",
   "static/js/1.58635121.chunk.js": "/hobby-blog/static/js/1.58635121.chunk.js",
   "static/js/1.58635121.chunk.js.map": "/hobby-blog/static/js/1.58635121.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/main.dcbba4ba.chunk.css.map": "/hobby-blog/static/css/main.dcbba4ba.chunk.css.map",
   "static/css/1.592c36e9.chunk.css.map": "/hobby-blog/static/css/1.592c36e9.chunk.css.map",
   "index.html": "/hobby-blog/index.html",
-  "precache-manifest.748cc8b52cfc76440811faad5f177c2a.js": "/hobby-blog/precache-manifest.748cc8b52cfc76440811faad5f177c2a.js",
+  "precache-manifest.53358cf1847f1fcc283c30f890055280.js": "/hobby-blog/precache-manifest.53358cf1847f1fcc283c30f890055280.js",
   "service-worker.js": "/hobby-blog/service-worker.js"
 }
