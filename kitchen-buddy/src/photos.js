@@ -792,12 +792,6 @@ export const photos = [
         date_taken: "2022-10-25"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img816.jpg",
-        width: 3,
-        height: 2,
-        date_taken: "2022-10-25"
-    },
-    {
         src: "https://clayimages.s3.amazonaws.com/img821.jpg",
         width: 3,
         height: 2,
@@ -811,6 +805,12 @@ export const photos = [
     },
     {
         src: "https://clayimages.s3.amazonaws.com/img832.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2022-10-25"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img816.jpg",
         width: 3,
         height: 2,
         date_taken: "2022-10-25"
