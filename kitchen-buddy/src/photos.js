@@ -957,13 +957,15 @@ export const photos = [
         src: "https://clayimages.s3.amazonaws.com/img805.jpg",
         width: 3,
         height: 2,
-        date_taken: "2022-11-20"
+        date_taken: "2022-11-20",
+        camera: "Topcon R"
     },
     {
         src: "https://clayimages.s3.amazonaws.com/img808.jpg",
         width: 3,
         height: 2,
-        date_taken: "2022-11-20"
+        date_taken: "2022-11-20",
+        camera: "Topcon R"
     },
     {
         src: "https://clayimages.s3.amazonaws.com/img774.jpg",
