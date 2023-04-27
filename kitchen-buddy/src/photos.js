@@ -864,5 +864,89 @@ export const photos = [
         height: 2,
         date_taken: "2022-11-25"
     },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img893.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-01-23"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img897.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-01-23"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img859.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-02-18"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img846.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-02-19"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1000-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1001-2x2.jpg",
+        width: 2,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1002.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1003.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1004.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1005.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1006.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1007.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1008.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
+    {
+        src: "https://clayimages.s3.amazonaws.com/img1009.jpg",
+        width: 3,
+        height: 2,
+        date_taken: "2023-04-14"
+    },
    
 ];
