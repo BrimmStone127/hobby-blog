@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import {Navbar, Nav} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Counter} from './features/counter/Counter'
 import { PhotoGallery } from './PhotoGallery';
 
 function App() {
