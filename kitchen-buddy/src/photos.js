@@ -1022,13 +1022,13 @@ export const photos = [
         date_taken: "2023-04-14"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img1002.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img1002-2.jpg",
         width: 3,
         height: 2,
         date_taken: "2023-04-14"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img1003.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img1003-2.jpg",
         width: 3,
         height: 2,
         date_taken: "2023-04-14"
@@ -1046,19 +1046,19 @@ export const photos = [
         date_taken: "2023-04-14"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img1006.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img1006-2.jpg",
         width: 3,
         height: 2,
         date_taken: "2023-04-14"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img1007.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img1007-2.jpg",
         width: 3,
         height: 2,
         date_taken: "2023-04-14"
     },
     {
-        src: "https://clayimages.s3.amazonaws.com/img1008.jpg",
+        src: "https://clayimages.s3.amazonaws.com/img1008-2.jpg",
         width: 3,
         height: 2,
         date_taken: "2023-04-14"
